@@ -1,0 +1,75 @@
+INITIAL COMMIT
+1. mkdir git-basic-exercise
+2. cd git-basic-exercises
+3. it is empty
+4. yes it has a .git
+5. no commits yet
+6. done
+7. it makes sense,nothing has been added to commit
+8. added
+9. yes, the readme file is green instead of red
+10. git reset README.md, the readme file changed back to red
+11. git commit -m "initial commit"
+[master (root-commit) f8daa13] initial commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README.md
+ 12. git logcommit f8daa13f2c25e6db7ec91ab1bc8f7f1524221f14 (HEAD -> master)
+Author: Anttonertmaphosa <galaletsang.lelo@gmail.com>
+Date:   Sun Mar 22 16:39:41 2020 +0200
+
+    initial commit
+
+    MORE COMMITS
+    1. done
+    2.cat README.md
+Umuzi Cohort21
+3.they are not added because they are modified
+4. git commit -m "second commit"
+On branch master
+Changes not staged for commit:
+        modified:   README.md
+
+Untracked files:
+        My  initial commit
+5.  git commit -m "third commit"
+[master 6dd6c99] third commit
+ 1 file changed, 1 insertion(+)
+
+ CHECK THIS OUT
+ 1. Author: Anttonertmaphosa <galaletsang.lelo@gmail.com>
+Date:   Sun Mar 22 16:53:59 2020 +0200
+
+    third commit
+
+commit f8daa13f2c25e6db7ec91ab1bc8f7f1524221f14
+Author: Anttonertmaphosa <galaletsang.lelo@gmail.com>
+Date:   Sun Mar 22 16:39:41 2020 +0200
+:
+2.done
+3. git checkout f8daa13f2c25e6db7ec91ab1bc8f7f1524221f14
+Note: checking out 'f8daa13f2c25e6db7ec91ab1bc8f7f1524221f14'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at f8daa13 initial commit
+4. cat README.md
+5. cat README.md
+Umuzi Cohort21
+
+1.  git branch
+* master
+2. git branch milkshake-flavours
+3. git branch
+* master
+  milkshake-flavours
+4. 
+5. nano milkshake.md
+6.no commits have been added because of the changes made
+7.

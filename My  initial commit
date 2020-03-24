@@ -1,0 +1,19 @@
+1. mkdir git-basic-exercise
+2. cd git-basic-exercises
+3. it is empty
+4. yes it has a .git
+5. no commits yet
+6. done
+7. it makes sense,nothing has been added to commit
+8. added
+9. yes, the readme file is green instead of red
+10. git reset README.md, the readme file changed back to red
+11. git commit -m "initial commit"
+[master (root-commit) f8daa13] initial commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README.md
+ 12. git logcommit f8daa13f2c25e6db7ec91ab1bc8f7f1524221f14 (HEAD -> master)
+Author: Anttonertmaphosa <galaletsang.lelo@gmail.com>
+Date:   Sun Mar 22 16:39:41 2020 +0200
+
+    initial commit
